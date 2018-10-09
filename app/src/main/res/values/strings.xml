@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">UniversityManagement</string>
+    <string name="app_name">University Management</string>
+    <string name="button1">Get Student Details</string>
+    <string name="button2">Get Student of class</string>
+    <string name="button3">Admit New Student</string>
+    <string name="button4">Update Student Name</string>
+    <string name="button5">Delete Student</string>
+    <string name="button6">Enroll Student to a Class</string>
+    <string name="awaiting_response">Waiting for response!</string>
 </resources>
