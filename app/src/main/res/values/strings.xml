@@ -7,4 +7,6 @@
     <string name="button5">Delete Student</string>
     <string name="button6">Enroll Student to a Class</string>
     <string name="awaiting_response">Waiting for response!</string>
+    <string name="serverCheckURL">http://35.200.253.206/students</string>
+    <string name="errorText">Server unavailable. Please try again later!</string>
 </resources>
