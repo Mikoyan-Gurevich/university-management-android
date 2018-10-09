@@ -25,6 +25,10 @@ class GetStudentDetailsActivity : AppCompatActivity(), AdapterView.OnItemSelecte
     override fun onItemSelected(parent: AdapterView<*>, view: View, pos: Int, id: Long) {
         if(pos == 1) {
             findViewById<EditText>(R.id.studentID).setVisibility(View.VISIBLE)
+            findViewById<Button>(R.id.button7).setEnabled(false)
+        } else {
+            findViewById<EditText>(R.id.studentID).setVisibility(View.GONE)
+            findViewById<Button>(R.id.button7).setEnabled(true)
         }
     }
 
