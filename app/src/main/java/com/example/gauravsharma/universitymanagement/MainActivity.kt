@@ -21,12 +21,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun checkServerStatus (textView: TextView) {
         val queue = Volley.newRequestQueue(this)
-        val stringRequest = StringRequest(Request.Method.GET, "@string/serverCheckURL",
+        val stringRequest = StringRequest(Request.Method.GET, getResources().getString(R.string.serverCheckURL),
                 Response.Listener<String> { response ->
                     makeButtonsVisible(textView);
                 },
                 Response.ErrorListener {
-                    textView.text = "@string/errorText"
+                    textView.text = getResources().getString(R.string.errorText);
                 })
 
         queue.add(stringRequest)

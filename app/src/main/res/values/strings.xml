@@ -9,4 +9,10 @@
     <string name="awaiting_response">Waiting for response!</string>
     <string name="serverCheckURL">http://35.200.253.206/students</string>
     <string name="errorText">Server unavailable. Please try again later!</string>
+    <string name="submitButtonText">Submit</string>
+    <string name="nothingSelectedYet">Nothing Selected Yet !!</string>
+    <string-array name="get_student_details_drop_down">
+        <item>Get All Students Data</item>
+        <item>Get Data By ID</item>
+    </string-array>
 </resources>
